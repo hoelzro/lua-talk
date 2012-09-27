@@ -16,3 +16,5 @@
     * Flame
     * Codea
     * SL4A
+    * Vim
+    * Wireshark
