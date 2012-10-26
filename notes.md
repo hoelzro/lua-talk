@@ -14,3 +14,5 @@
     * Embedded Software (Routers)
     * AndroLua
     * Flame
+    * Codea
+    * SL4A
