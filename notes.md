@@ -71,7 +71,9 @@
     * comparison metamethods
 * slide: Advanced Lua; multi-threading/code parallelism
     * difference between co-routines and os-threads
-    * re-use co-routines for different purposes; producer consumer model (LTN12)
+    * re-use co-routines for different purposes; producer consumer model (LTN12) or socket scheduler
+* slide: C api    
+    * C stack
 * slide: Try Lua yourself
     * iOS: Codea  [sample video, as closing demo maybe?](http://www.youtube.com/watch?v=QLmh0R6TNV4)
     * Android: SL4A
@@ -80,8 +82,19 @@
     * play [Codea video](http://www.youtube.com/watch?v=QLmh0R6TNV4)
     
 #Home Automation    
+* slide: HA hardware
+    * networks; zwave - zigbee
+    * PLC; X10, Insteon PowerBus
+* slide: HA software
 * slide: Girder
+* slide: xPL
+    * explain xPL
 * slide: xPL
     * demo logger
     * demo of WireShark dissector
+    * demo occupancy detection using OpenWRT router
 * slide: UPnP
+    * explain UPnP
+* slide: UPnP
+    * demo Girder with UPnP, lightbulb or mediaplayer
+    
