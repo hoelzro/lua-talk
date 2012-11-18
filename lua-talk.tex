@@ -1,0 +1,41 @@
+\documentclass{beamer}
+
+\usetheme{Warsaw}
+
+\title{Lua - An Overview}
+\author{Rob Hoelz}
+\date{November 29th, 2012}
+
+\usepackage{framed}
+\usepackage{minted}
+\usepackage{hyperref}
+
+\begin{document}
+\definecolor{shadecolor}{rgb}{0.87,0.906,0.925}
+
+\include{introduction}
+% *** DEMO ***
+\include{who-uses-lua}
+
+\begin{frame}
+\begin{center}
+Why Use Lua?
+\end{center}
+\end{frame}
+
+% * Portable (ANSI C)
+% * A powerful, flexible, C API
+% * Lua doesn't dictate anything (TIMTOWTDI)
+
+\include{metatables}
+\include{coroutines}
+\include{function-environments}
+\include{data-description-language}
+
+\include{community}
+\include{drawbacks}
+\include{conclusion}
+
+% Lua 5.2? Various Implementations? LuaJIT?
+
+\end{document}
