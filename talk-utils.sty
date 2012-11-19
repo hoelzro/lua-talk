@@ -1,0 +1,29 @@
+\ProvidesPackage{talk-utils}
+
+\newcommand{\commentary}[1]{
+}
+
+\newcommand{\inputexample}[2][perl]{
+\begin{frame}[fragile=singleslide,c,shrink=5]
+\begin{shaded}
+\inputminted{#1}{examples/#2}
+\end{shaded}
+\end{frame}
+}
+
+\newcommand{\separatorslide}[1]{
+\begin{frame}[c]
+\begin{center}
+\LARGE{#1}
+\end{center}
+\end{frame}
+}
+
+\newenvironment{itemslide}[1]
+{\begin{frame}[environment=itemslide,fragile]
+ \begin{center}
+ \LARGE{#1}
+ \end{center}
+ \begin{itemize}}
+{\end{itemize}
+ \end{frame}}
