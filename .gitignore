@@ -1,0 +1,11 @@
+*.aux
+*.dvi
+*.log
+*.nav
+*.out
+*.pdf
+*.ps
+*.pyg
+*.snm
+*.toc
+*.vrb
